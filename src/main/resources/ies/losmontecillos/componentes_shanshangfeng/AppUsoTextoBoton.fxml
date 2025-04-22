@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import ies.losmontecillos.componentes_shanshangfeng.CampoTextoBoton?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="ies.losmontecillos.componentes_shanshangfeng.SelectorDeslizamiento.AppUsoTextoBotonController"
+      spacing="10" alignment="CENTER" style="-fx-padding: 10;">
+
+    <CampoTextoBoton fx:id="campoTextoBotonNombre" />
+    <CampoTextoBoton fx:id="campoTextoBotonApellido" />
+
+    <Label fx:id="labelResultado" text="Pulsa el botón y muestra texto en esta etiqueta." />
+</VBox>

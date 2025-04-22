@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import ies.losmontecillos.componentes_shanshangfeng.SelectorDeslizamiento?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ies.losmontecillos.componentes_shanshangfeng.APPUsoSelectorController">
+   <children>
+      <Label text="Selectores" textFill="RED">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </Label>
+      <SelectorDeslizamiento fx:id="selectorUp"  />
+      <SelectorDeslizamiento fx:id="selectorDown" />
+
+      <Label fx:id="pressedText" />
+   </children>
+</VBox>
